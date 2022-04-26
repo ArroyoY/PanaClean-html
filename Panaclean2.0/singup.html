@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+        <link rel="icon" type="image" href="assets/img/hoja.png">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Panaclean</title>
+    </head>
+    <body class="singup-body">
+        <div class="logo-img">
+            <img src="assets/img/Logo-gris.png" alt="">
+        </div>
+        <div class="flex-container">
+            <div id="form-singup">
+                 <form class="form">
+                    <h2 class="sing-up-h2">Crear Cuenta</h2>
+                    <p class="home__description" style="color: white;">Haciendo el cambio en Panamá</p>
+                    <p class="sing-up-p" type="Nombre Completo:">
+                        <input type="text" class="input-login" placeholder="Introduce tu Nombre"></input></p>
+                    <p class="sing-up-p" type="Email:">
+                        <input type="email" class="input-login" placeholder="Introduce tu Correo"></input></p>
+                    <p class="sing-up-p" type="Contraseña:">
+                        <input type="password" class="input-sing-up" id="psw" placeholder="Introduce tu Contraseña">
+                        <input type='checkbox' id="permanent" onclick="showpass()" class="show-pass"/><label for="permanent" style="color: white"></label> 
+                    </p>
+                    <p class="sing-up-p" type="Repite tu Contraseña:">
+                        <input type="password" class="input-sing-up" id="psw2" placeholder="Repite tu Contraseña">
+                        <input type='checkbox' id="permanent" onclick="showpass()" class="show-pass"/><label for="permanent" style="color: white"></label> 
+                    </p>
+                    <button class="sing-up-b">Crear Cuenta</button>
+                    <a href="registro" class="login-a">¿Ya tienes cuenta? |</a>
+                    <a href="" class="policity">Nuestras politicas de privacidad</a>
+                </form>               
+            </div>
+        </div>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
